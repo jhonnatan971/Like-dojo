@@ -1,0 +1,25 @@
+.container {
+    border: 2px solid black;
+    margin: 10px;
+    width: 500px;
+}
+.container-hijo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.container-hijo div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container-hijo div p, .container-hijo div button {
+    margin: 10px;
+}
+.like-btn {
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+}
